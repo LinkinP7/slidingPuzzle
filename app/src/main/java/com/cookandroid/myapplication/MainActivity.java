@@ -1,7 +1,6 @@
 package com.cookandroid.myapplication;
 
         import androidx.appcompat.app.AppCompatActivity;
-
         import android.content.Context;
         import android.graphics.Bitmap;
         import android.graphics.BitmapFactory;
@@ -18,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(new MyGraphicView(this));
         setTitle("B584020 박진성 - 슬라이드 게임");
+
     }
 
     private static class MyGraphicView extends View {
